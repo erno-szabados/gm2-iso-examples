@@ -21,7 +21,6 @@ BEGIN
     cid := StdChans.OutChan();
     SeqFile.OpenAppend(cid, 'test.txt', ChanConsts.text, res);
     IF res = ChanConsts.opened THEN
-        TextIO.SkipLine(cid);
         TextIO.WriteString(cid, "Writing data to the channel.");
         TextIO.WriteLn(cid);
         TextIO.WriteString(cid, "Contents of a seq file are appended to the file.");
