@@ -1,0 +1,5 @@
+DEFINITION MODULE SeqFileDemo;
+(* This module demonstrates basic channel operations in Modula-2. *)
+(* The program opens a file channel, appends a string to it, and then closes the channel. *)
+(* To compile: gm2 SeqFileDemo.mod -fiso -o seqFileDemo *)
+END SeqFileDemo.
