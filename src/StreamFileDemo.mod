@@ -10,7 +10,7 @@ IMPORT WholeStr;
 
 (* This module demonstrates basic channel operations in Modula-2. *)
 (* The program opens a file channel, writes a string to it, and then closes the channel. *)
-(* Build: gm2 ./StreamFileDemo -fiso -o seqFileDemo *)
+(* Build: gm2 ./StreamFileDemo -fiso -o streamFileDemo *)
 
 PROCEDURE WriteToStreamFile();
 (* This procedure writes a string to a file using the StreamFile module. *)
