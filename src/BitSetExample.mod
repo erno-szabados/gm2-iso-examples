@@ -1,4 +1,4 @@
-IMPLEMENTATION MODULE BitSetExample;
+MODULE BitSetExample;
 
 (* GNU ISO Modula-2 Example for bitwise operations.*)
 

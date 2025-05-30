@@ -1,4 +1,4 @@
-IMPLEMENTATION MODULE StreamFileDemo;
+MODULE StreamFileDemo;
 
 IMPORT StrIO;
 IMPORT TextIO;
