@@ -1,6 +1,9 @@
 MODULE ExceptionDemo;
 
 (* This module demonstrates the use of exceptions in Modula-2. *)
+(* An exception is raised and handled. *)
+(* Build: gm2 ./SeqFileDemo -fiso -o seqFileDemo *)
+
 
 IMPORT EXCEPTIONS;
 IMPORT StrIO;

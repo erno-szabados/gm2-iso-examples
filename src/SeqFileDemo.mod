@@ -10,6 +10,7 @@ IMPORT WholeStr;
 
 (* This module demonstrates basic channel operations in Modula-2. *)
 (* The program opens a file channel, appends a string to it, and then closes the channel. *)
+(* Build: gm2 ./SeqFileDemo -fiso -o seqFileDemo *)
 
 PROCEDURE WriteToSeqFile();
 (* This procedure appends a string to a file using the SeqFile module. *)
